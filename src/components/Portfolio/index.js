@@ -9,18 +9,25 @@ const Portfolio = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const [portfolio, setPortfolio] = useState([
     {
-      name: 'Full Stack Commerce Shop',
-      description: 'REACT / NODE / EXPRESS / MONGODB',
-      image: 'https://i.postimg.cc/wTZJ5tgc/mern-Commerce.png',
-      url: 'https://mern-e-commerce-client.vercel.app/',
-      urlGit: 'https://github.com/PENbDM/mern-e-commerce',
+      name: 'Power Shop',
+      description: 'REACT / NODE / EXPRESS / POSTGRESQL / TYPESCRIPT',
+      image: 'https://i.postimg.cc/g2HX8Z7k/Untitled.jpg',
+      url: 'https://powershop-project.vercel.app/',
+      urlGit: 'https://github.com/PENbDM/Electronic-Shop',
     },
     {
-      name: 'Full Stack Pizza Shop',
+      name: 'Pizza Shop',
       description: 'REACT / NODE / EXPRESS / MONGODB',
       image: 'https://i.postimg.cc/XY55sVvM/pizza.png',
       url: 'https://pizza-mern-client.vercel.app/',
       urlGit: 'https://github.com/PENbDM/pizza-mern',
+    },
+    {
+      name: 'Commerce Shop',
+      description: 'REACT / NODE / EXPRESS / MONGODB',
+      image: 'https://i.postimg.cc/wTZJ5tgc/mern-Commerce.png',
+      url: 'https://mern-e-commerce-client.vercel.app/',
+      urlGit: 'https://github.com/PENbDM/mern-e-commerce',
     },
   ])
   useEffect(() => {
@@ -84,7 +91,7 @@ const Portfolio = () => {
             idx={15}
           />
         </h1>
-        <div>{renderPortfolio(portfolio)}</div>
+        <div className="divRenderProject">{renderPortfolio(portfolio)}</div>
       </div>
       <Loader type="pacman" />
     </>
