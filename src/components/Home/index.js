@@ -65,7 +65,7 @@ const Home = () => {
               CONTACT ME
             </Link>
             <a
-              href="https://drive.google.com/file/d/1eI1J_SbRjDi6lINlnTzk5_Cu8lqlEwqJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1j0E3hgszZjAUzFbzk8nMYO2xjOlmhyVB/view?usp=sharing"
               target="_blank"
               className="flat-button"
             >
