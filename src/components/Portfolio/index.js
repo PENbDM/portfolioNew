@@ -12,7 +12,7 @@ const Portfolio = () => {
       name: 'Power Shop',
       description: 'REACT / NODE / EXPRESS / POSTGRESQL / TYPESCRIPT',
       image: 'https://i.postimg.cc/g2HX8Z7k/Untitled.jpg',
-      url: 'https://powershop-project.vercel.app/',
+      url: 'https://power-shop-client.vercel.app/',
       urlGit: 'https://github.com/PENbDM/Electronic-Shop',
     },
     {
